@@ -78,12 +78,3 @@ a.exe
 
 - If the user enters an invalid choice, an error message is displayed, and the program exits with a status code of 1.
 
-### Notes
-
-- Ensure that the matrices in the input files (matrix1.txt and matrix2.txt) follow the specified format.
-
-- The generated matrices are saved in matrix1.txt and matrix2.txt.
-
-- The result of matrix multiplication is saved in matrix3.txt.
-
-- Matrix multiplication is performed based on the rules: Number of columns in matrix1 should be equal to the number of rows in matrix2.
