@@ -130,9 +130,10 @@ int main() {
         free_2d_array(result, nrow1);
     } else if (choice == 2) {
         // Case 2: User inputs an integer
-        printf("Enter the number of rows and columns for the random matrices: ");
+        printf("Enter the number of rows for the random matrices: ");
         scanf("%d", &nrow1);
-        ncol1 = nrow1;
+        printf("Enter the number of columns for the random matrices: ");
+        scanf("%d", &ncol1);
 
         // Generate random matrices
         int **matrix1 = create_2d_array(nrow1, ncol1);
