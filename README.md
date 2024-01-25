@@ -59,16 +59,17 @@ a.exe
 ~~~
 
 ## How the Program Works
-### 1. User Input:
+## 1. User Input:
 
 - The program begins by prompting the user to enter '1' to input two file names or '2' for an integer.
 
-### 2. Case 1 - User Inputs File Names:
+## 2. Case 1 - User Inputs File Names:
 
 - If the user chooses '1,' they are prompted to enter the file names for two matrices (matrix1.txt and matrix2.txt).
 - The matrices are then read from the files, and their dimensions are checked to ensure matrix multiplication is possible.
 - The input matrices are displayed, and the result of the multiplication is calculated, displayed, and saved to a file (matrix3.txt).
-### 3. Case 2 - User Inputs Integer:
+
+## 3. Case 2 - User Inputs Integer:
 
 - If the user chooses '2,' they are prompted to enter the number of rows and columns for randomly generated matrices.
 - Two matrices (matrix1.txt and matrix2.txt) are created with random values and saved to files.
